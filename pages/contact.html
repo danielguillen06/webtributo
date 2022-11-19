@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylecss/style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="./gallery.html">gallery</a>
+        <a href="./about.html">about</a>  
+    </nav>
+
+   <header>
+    <h1>Formulario de contacto</h1>
+   </header>
+   
+    <form action="/action_page.php">
+        <label for="nombre">Nombres:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="apeliido">Apellidos:</label><br>
+        <input type="text" id="apellido" name="apellido"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="movil">Telefono Movil:</label><br>
+        <input type="text" id="text" name="movil"><br><br>
+
+
+        <label for="Pais">Seleccione Pais:</label>
+        <select id="Pais" name="Pais">
+            <option value="España">España</option>
+            <option value="Alemania">Alemania</option>
+            <option value="Francia">Francia</option>
+        </select><br><br>
+
+        <label for="comentario">Escriba un Mensaje: opcional</label>
+        <p></p><textarea name="comentario" rows="5" cols="50">Escribe aquí tu comentario: </textarea></p>
+
+        
+        <input type="checkbox" id="aceptar" name="aceptar">
+        <label for="acpetar"> Aceptar terminos y condiciones</label><br></br>
+
+        
+        <input type="reset" value="reset">
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
