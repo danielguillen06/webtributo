@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 60%;
+}
+
 table,
 td,
 th {
@@ -7,29 +18,47 @@ th {
 }
 
 body {
-    background-image: url(../assest/IMG_0764.JPG);
-    
+    background-color: bisque;
+    background-size: contain;
 }
 
-.imagen {
-    display:flex;
-    justify-content:center;
-    flex-direction: column;
-    align-items: center;
+.videoPresentacion{
+    margin: 0 auto;
+    width: 35%;
+
 }
 
-.video{
-    flex-direction: column;
-    justify-content:center;
-    display:flex;
-    align-items: center;
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.contenedorImagenes {
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+}
+img, video{
+    width: 580px;
+    height: 390px;
+}
+
+.galeria1{
+    display: block;
+    margin: 0 auto
+   
+}
+
+.galeria2{
+    display: block;
+    margin: 0 auto;
+
 }
 
 .tabla table {
     margin: 0 auto;
 }
 
-
-h1{
+.titulos {
     text-align: center;
 }
